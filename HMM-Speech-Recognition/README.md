@@ -1,12 +1,8 @@
-# HMM ile İzole Kelime Tanıma Sistemi Tasarımı
-
-## Problem Tanımı
-
-Bu projede, Hidden Markov Model (HMM) kullanılarak basit bir izole kelime tanıma sistemi tasarlanmıştır. Amaç, verilen bir gözlem dizisinin hangi kelimeye daha uygun olduğunu belirlemektir. Çalışmada iki farklı kelime için ayrı HMM modelleri oluşturulmuş ve yeni gelen test verisinin hangi modele daha yüksek olasılık verdiği incelenmiştir.
+Projede Hidden Markov Model kullanılarak basit bir izole kelime tanıma sistemi tasarlanmıştır. Amaç, verilen bir gözlem dizisinin hangi kelimeye daha uygun olduğunu belirlemektir. Çalışmada iki farklı kelime için ayrı HMM modelleri oluşturulmuş ve yeni gelen test verisinin hangi modele daha yüksek olasılık verdiği incelenmiştir.
 
 ## Veri
 
-Bu projede gerçek ses kaydı yerine temsili gözlem dizileri kullanılmıştır. Gözlemler iki sembol ile ifade edilmiştir:
+Projede gerçek ses kaydı yerine temsili gözlem dizileri kullanılmıştır. Gözlemler iki sembol ile ifade edilmiştir:
 
 - `0 = Low`
 - `1 = High`
@@ -40,7 +36,6 @@ Uygulama sonucunda test verileri her iki model üzerinde değerlendirilmiş ve l
 
 Elde edilen sonuçlar, HMM yaklaşımının küçük ve kontrollü örneklerde temel sınıflandırma mantığını göstermede yararlı olduğunu göstermiştir.
 
-## Yorum / Tartışma
+Çalışma, gerçek konuşma tanıma sisteminin basitleştirilmiş bir simülasyonudur. Gerçek sistemlerde doğrudan `Low` ve `High` gibi semboller yerine ses sinyalinden çıkarılan daha karmaşık özellikler kullanılır. Ayrıca gerçek verilerde gürültü, konuşmacı farklılığı ve kelime çeşitliliği gibi etkenler sistemin performansını etkiler.
 
-Bu çalışma, gerçek konuşma tanıma sisteminin basitleştirilmiş bir simülasyonudur. Gerçek sistemlerde doğrudan `Low` ve `High` gibi semboller yerine ses sinyalinden çıkarılan daha karmaşık özellikler kullanılır. Ayrıca gerçek verilerde gürültü, konuşmacı farklılığı ve kelime çeşitliliği gibi etkenler sistemin performansını etkiler.
 
