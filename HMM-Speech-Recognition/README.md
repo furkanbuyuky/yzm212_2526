@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HMM ile İzole Kelime Tanıma Sistemi Tasarımı
 
 ## Problem Tanımı
@@ -45,7 +44,3 @@ Elde edilen sonuçlar, HMM yaklaşımının küçük ve kontrollü örneklerde t
 
 Bu çalışma, gerçek konuşma tanıma sisteminin basitleştirilmiş bir simülasyonudur. Gerçek sistemlerde doğrudan `Low` ve `High` gibi semboller yerine ses sinyalinden çıkarılan daha karmaşık özellikler kullanılır. Ayrıca gerçek verilerde gürültü, konuşmacı farklılığı ve kelime çeşitliliği gibi etkenler sistemin performansını etkiler.
 
-Buna rağmen bu proje, HMM’in durum geçişleri ve gözlem olasılıkları ile kelime tanımada nasıl kullanılabileceğini açık ve anlaşılır biçimde göstermektedir.
-=======
-# yzm212_2526
->>>>>>> 73bb22ea11b1dbd1f9a954227557e45263fc8255
