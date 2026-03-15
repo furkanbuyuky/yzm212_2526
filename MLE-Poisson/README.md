@@ -4,12 +4,10 @@ Bu klasor, Poisson dagilimi kullanilarak trafik yogunlugu verisi uzerinde Maximu
 
 ## Icerik
 
-- `mle_poisson_traffic.py`: Python ile sayisal MLE, gorsellestirme ve outlier analizi
-- `mle_poisson_traffic_notebook.ipynb`: Notebook formatinda duzenlenmis cozum
-- `rapor.docx`: Odev raporunun Word surumu
-- `rapor.pdf`: Odev raporunun PDF surumu
-- `poisson_fit_original.png`: Orijinal veri seti icin histogram + Poisson PMF grafigi
-- `poisson_fit_outlier.png`: Outlier eklendikten sonraki histogram + Poisson PMF grafigi
+- `mle_poisson.ipynb`: Python ile gorsellestirme ve outlier analizi, Notebook formatinda duzenlenmis cozum
+- `report/rapor.pdf`: Odev raporunun PDF surumu
+- `report/poisson_fit_original.png`: Orijinal veri seti icin histogram + Poisson PMF grafigi
+- `report/poisson_fit_outlier.png`: Outlier eklendikten sonraki histogram + Poisson PMF grafigi
 
 ## Odev Ozeti
 
@@ -49,15 +47,5 @@ Gerekli kutuphaneler:
 Scripti calistirmak icin:
 
 ```bash
-python mle_poisson_traffic.py
+jupyter notebook mle_poisson.ipynb
 ```
-
-Notebook surumu icin:
-
-```bash
-jupyter notebook mle_poisson_traffic_notebook.ipynb
-```
-
-## Not
-
-Bu teslimde hem teknik rapor (`rapor.pdf`) hem de kod cozumleri (`.py` ve `.ipynb`) birlikte sunulmustur.
