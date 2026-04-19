@@ -1,14 +1,11 @@
-# YZM212 Makine Öğrenmesi - 4. Ödev
+# YZM212 - Bayes Theorem
 
-Bu projede gürültülü astronomik gözlem verileri kullanılarak bir gök cisminin gerçek parlaklığı ve gözlem hatası Bayesyen çıkarım yöntemiyle tahmin edilmiştir. Posterior dağılımdan örnekleme yapmak için Markov Chain Monte Carlo (MCMC) yaklaşımı ve `emcee` kütüphanesi kullanılmıştır.
+Projede gürültülü astronomik gözlem verileri kullanılarak bir gök cisminin gerçek parlaklığı ve gözlem hatası Bayesyen çıkarım yöntemiyle tahmin edilmiştir. Posterior dağılımdan örnekleme yapmak için Markov Chain Monte Carlo (MCMC) yaklaşımı ve `emcee` kütüphanesi kullanılmıştır.
 
 ## Dosyalar
 
-- `odev4_bayesian_galaksi_v2.ipynb`: çalıştırılmış analiz notebook'u
-- `odev4_bayesian_galaksi.ipynb`: notebook'un düzenlenmiş kod versiyonu
-- `ml_4_odev.docx`: ödev raporu
-- `figures/`: notebook çalıştırıldığında üretilen grafikler
-- `Makine Öğrenmesi 4. Ödev.pdf`: ödev yönergesi
+- `src/bayes.ipynb`: çalıştırılmış analiz notebook'u
+- `report/bayes_report.pdf`: ödev raporu
 
 ## Veri
 
@@ -84,4 +81,4 @@ Eksik paket varsa Jupyter içinde şu komut çalıştırılabilir:
 %pip install numpy matplotlib pandas emcee corner
 ```
 
-Analizi yeniden üretmek için `odev4_bayesian_galaksi_v2.ipynb` dosyası baştan sona çalıştırılabilir.
+Analizi yeniden üretmek için `bayes.ipynb` dosyası baştan sona çalıştırılabilir.
